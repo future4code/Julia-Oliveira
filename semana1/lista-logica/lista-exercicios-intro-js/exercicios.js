@@ -87,27 +87,33 @@ function checaStringsMesmoTamanho(string1, string2) {
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-let array = retornaPrimeiroElemento
-return array.split
+return array[0]
 
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
+  return array[array.length-1]
 
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
+  let ultimoElemento = array[array.length-1]
+  let primeiroElemento = array[0]
+  array.splice(0,1,ultimoElemento);
+  array.splice(array.length-1,1,primeiroElemento);
+  return array
 
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-
+  let valor = string1.toLowerCase() === string2.toLowerCase()
+  return valor
 }
 
 // EXERCÍCIO 13
