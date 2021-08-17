@@ -1,3 +1,4 @@
+
 //exercicio aula 03 variaveis 
 
 let nome 
@@ -28,6 +29,7 @@ b = a
 a = c
 
 console.log(a,b)
+
 
 
 
