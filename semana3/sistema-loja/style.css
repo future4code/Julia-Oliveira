@@ -1,0 +1,12 @@
+.imagem{
+  width:25px;
+}
+div {
+  background-color:palevioletred;
+}
+.rodape{
+  position:absolute;
+  bottom: 8px;
+  width:1350px;
+
+}
