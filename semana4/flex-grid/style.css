@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.confeitaria{
+  display:flex;
+  background-color:mediumvioletred;
+}
+
+.primeira-seta{
+width: 18px;
+margin-left: 60%;
+margin-bottom: -4px;}
+
+.segunda-seta{
+width: 18px;
+margin-left: 56%;
+margin-bottom: -4px;
+}
+
+.terceira-seta{ 
+width: 18px;
+margin-left: 54%;
+margin-bottom: -4px;
+}
+
+.quarta-seta{
+width: 18px;
+margin-left: 61%;
+margin-bottom: -4px;
+}
+
+header {
+  background-color:mediumvioletred;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  flex-direction: row-reverse;
+}
+
+img {
+  width: 100px;
+}
+
+main {
+  background-color: lightyellow;
+  flex-grow: 1;
+  display: flex;
+}
+
+nav {
+  background-color: lightpink;
+  width: 30%;
+}
+
+section {
+  background-color: lightsteelblue;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color:mediumvioletred;
+  color: white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bolo-nome{
+  width: 20px;
+  margin-right: 5px;
+}
+
+.flex-bolo{
+display: flex;
+}
+
+.casa-home{
+  width: 22px;
+  margin-right: 16px;
+}
+
+.bala-produto{
+  width: 22px;
+  margin-right: 15px;
+}
+
+.carrinho-compra{
+  width: 22px;
+  margin-right: 15px;
+}
+
+.perfil-boneco{
+  width: 22px;
+  margin-right: 15px;
+}
+
+.bolo-decorado-flex-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.item-bolo-decorado-flex{
+  margin: 20px 10px 5px 20px;
+  width: 240px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.foto-bolo-decorado{
+  width: 236px;
+  margin-bottom: 5px;
+}
+
+p{
+  font-size: small;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.margem-superior{
+  margin-left:20px;
+}
