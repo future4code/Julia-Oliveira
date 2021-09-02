@@ -6,7 +6,7 @@
 
 header{
   background-color:rosybrown;
-  height:70px;
+  height:60px;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +16,7 @@ header{
 
 
 main {
-  background-color: lightyellow;
+
   flex-grow: 1;
   height: 700px;
 }
@@ -31,7 +31,7 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  /* position: fixed; */
+  position: fixed;
 }
 
 .foto-flex-container{
@@ -99,8 +99,11 @@ img {
 }
 
 .lupa-pesquisa{
-  width:32px;
+  width:36px;
   margin-right:10px;
+  right:500px;
+
+
 }
 
 .barra-pesquisa{
@@ -121,8 +124,7 @@ img {
   font-style: italic;
   font-size: 18px;
   border: none;
-  height: 32px;
-  width: 260px;
+  width: 188px;
 }
 
 .h2{
@@ -133,4 +135,6 @@ img {
   color: salmon;
 }
 
-@media{max-wi;}
+@media only screen and (max-device-width: 900px) {
+.pag-flex-container { width:100%; }
+  }
