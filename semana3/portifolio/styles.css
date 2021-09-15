@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body{
+  background-color:#F08080;
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#menu{
+  background-color:#CD5C5C;
+  padding: 26px 0px 26px 155px;
+  width: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+
+#conteudo{
+  padding-top:50px;
+  width: 100%;}
+
+
+#footer{
+  background-color:#FA8072;
+  height: 100px;
+  width:100%;}
+
+#sobre-mim{  
+  width: 100%;
+}
+
+#instituicoes{
+  margin-left: 59px;
+  margin-top: 36px;
+  width: 100%;
+}
+
+#galeria{
+  margin-top: 36px;
+  margin-left: 59px;
+  width: 100%;
+}
+#habilidades{
+  margin-top: 36px;
+  margin-left: 59px;
+  width: 100%;
+}
+#formulario{
+  margin-top: 36px;
+  margin-left: 59px;
+  width: 100%;
+}
+
+.botao-menu{
+  margin-right: 100px;
+  color: #F4F6F7;
+}
+
+.titulo-sobre{
+  text-align: center;
+  padding-top: 38px;
+}
+
+.paragrafo-sobre{
+  margin-left: 76px;
+  margin-right: 10px;
+}
+
+label{
+  margin-right: 8px;
+}
+
+.campo-nome{
+  margin-bottom: 20px;
+}
+
+.campo-email{
+  margin-bottom: 20px;
+}
+
+.campo-mensagem{
+  margin-bottom: 20px;
+}
+
+input #nome{
+  width: 230px;
+}
+
+input #email{
+  width: 233px;
+}
+
+input #mensagem{
+  width: 192px;
+}
+
+.imagem{
+width: 30px;
+margin-right: 226px;
+margin-left: 80px;
+}
+
+.imagem-projeto{
+  width: 726px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.texto-projeto{
+  margin-left: 59px;
+}

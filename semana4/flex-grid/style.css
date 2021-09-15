@@ -46,9 +46,10 @@ header {
   flex-direction: row-reverse;
 }
 
+
 img {
   width: 100px;
-}
+
 
 main {
   background-color: lightyellow;
